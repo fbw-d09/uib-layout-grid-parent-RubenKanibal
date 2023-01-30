@@ -4,7 +4,8 @@ img {
 
   .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: minmax(100px, 350px) 1fr minmax(100px, 350px);
     grid-gap: 10px;
   }
   
